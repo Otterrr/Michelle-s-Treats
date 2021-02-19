@@ -1,45 +1,78 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Michelle's Treats
 
-Welcome USER_NAME,
+Michelle is a baker, maker, creator, mother of 3 and the mother of my girlfriend. She paints, knits, crafts, gardens and of course bakes a variety of incredible snacks, cakes, biscuits and TREATS!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website is a preliminary staging ground for selling her delicuious treats to the wider world. Michelle has already been selling her Treats through etsy and instagram marketing but through creating a website, she will have a base of operation to direct all of her interest to with information on herself, a gallery of all the tasty Treats and a place to request personalised packages.
 
-## Gitpod Reminders
+# UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+The primary goal of "Michelle's Treats" is to create a welcoming, attractive, *"functional"* website for Michelle to direct all her traffic from other social media sources (Etsy/Instagram/Facebook) to, in order to sell / discuss the selling of her Treats.
 
-A blue button should appear to click: *Make Public*,
+## User Stories
 
-Another blue button should appear to click: *Open Browser*.
+sretyujh
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Business Goals
 
-A blue button should appear to click: *Make Public*,
+Having been selling on Etsy and through friends of friends and family, and fine-tuning the box sizes and pricing of various treat bundles, Michelle is now ready to expand her business to a full-scale website to bring all of her outlets to one core place. This website will be the hub of all other social media sources, directing all interest hungry buyers to inspect mouth-watering pictures and competitive prices all in one place. This website is designed to eventually have all the variety of treats available as well as mix boxes and personalisable options for special occasions. This website will also give Michelle a much easier time of expanding to other exports such as Birthday Cakes and vegan, gluten free or keto Treats!
 
-Another blue button should appear to click: *Open Browser*.
+## Design Choices
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The design for this website was simple. Make it modern and classy enough to attract a younger-more-computer-savvy audience, whilst also being clean and smart to attract those not too hot on the keys. It also needed to be welcoming, as Michelle is, it needed to reflect her. A nice mix of pale colours to contrast well with a Monochromatic header and footer scheme, whilst also matching potential colours of images of the Treats. Sharp angles, straight lines, clean cut, clearly showing the different sections from Header to Landing image to footer. Fonts/Colours TBC.
 
-## Updates Since The Instructional Video
+## Wireframes
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The Wireframes were created using [balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA4L2BBhCvARIsAO0SBdZKeRLN-dlJkDnWv6KHNSZbivUxu8qMGqb8sbqJm_8n7Sw-QmrXjbEaAtdTEALw_wcB) and within each of them 3 more Wireframes were created for each of the potential user devices, phone, tablet and computer. The first Wireframe is the Landing page (HOME) With a nice large image of a mix box of Treats. It will also contain below it a couple more images of the top Treats that can be purchased from Michelle.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The 2nd Wireframe is the Gallery. A very important page for advertising food and drink, to entice the audience into purchasing. A simple, clean, full page gallery of the different Treats Michelle has to offer.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The 3rd Wireframe is the "About" page. This will contain two pieces of content. It will firstly contain a small blurb about Michlle and her baking career with an image of the Mastermind in the kitchen. Below this there will be a "Get in Touch" section, where those interested can request to Michelle what they would like in their Treat box or what they would like Michelle to construct for them if it has not yet been done. (Unlikely) Here, users will input their Name, Email and "Request", where they have a small box to ask for potential Treat ingredient they would like in their box and for what price/size they are looking for.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+All 3 pages will have a consistent Header and Footer section, using the same font styles, sizes and colour schemes. They will have links below to Michelles Etsy store, Instagram page, Facebook page and a fictional Youtube channel, all consistent across each page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Main Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Header - Remains consistent throughout the website. Contains links to the HOME, GALLERY and CONTACT pages. Clicking the "Michelle's Treats" text will also direct users to the HOME page.
+* Footer - Remains consistent throughout the website. Contains copyright information and links to Michelle's social media. - Facebook, Instagram, Etsy and Youtube. 
+* Landing Image - (HOME) Has a message welcoming users to the  website, instantly informing what the website is about and what they can get from it.
+* "Menu" - A few images below the landing image showing the "most popular" treats purchased from the website with pricing information.
+* Gallery - images of all the treats available from Michelle's Treats - made to entice users into buying!
+* About - a brief bit of text just allowing users to get to know Michelle a bit better and feel more connected to the person they are buying from. Makes the experience less robotic.
+* Get in Touch - Where users can submit their Name, Email and a request for a specific box of treats using new sweets and Treats for something unique.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Technologies Used
 
---------
+* HTML 
+* CSS
+* [Bootstrap](https://getbootstrap.com/)
+    - Boostraps pre-made layouts and commands were used to greatly speed up the website creation.
+* [Font Awesome](https://fontawesome.com/)
+    - FA used to implement all the icons for improving UX and the website design.
+* [Code Institute](https://codeinstitute.net/)
+    - Many of the code techniques and lines of code from previous websites created were re-used in this project.
 
-Happy coding!
+# Testing
+
+
+
+# Deployments
+
+
+
+# Credits
+
+## Content
+
+-
+
+## Media
+
+-
+
+## Acknowledgements
+
+-
