@@ -12,7 +12,21 @@ The primary goal of "Michelle's Treats" is to create a welcoming, attractive, *"
 
 ## User Stories
 
-sretyujh
+As a **Consumer**, visiting this website, interested in purchasing or finding out information on Michelle's Treats, I want:
+
+1. An intuitive website that allows me to navigate easily to the different pages.
+2. To be able to contact the seller to receive more information on the variety of products and personalised boxes.
+3. To be able to visit the sellers various social media accounts through a consistent footer layout.
+4. Consistent layout of header and footer design to familiarise with on each page.
+5. Consistent main content layout that has some consisent design or sizes that ensures myself that I am still on the correct website at all times.
+6. Engaging, high quality images that entice me into purchasing a product or wanting to find out more.
+
+As the **Business/Website Owner**, using this website as the hub of all social media and the main location of purchases, I want: 
+
+1.  Users to be able to easily navigate my website, finding it welcoming, colourful and reflective of the products I am selling.
+2. To be able to naigate users to the contact page where they can get in touch to enquire about my products and eventually purchase them.
+3. The images used, both in the background and in the gallery to accurately reflect my products, to increase interest and sales.
+4. My website to be multi-functional across varies devices, mobile, tablet and PC so users can browse my website at their convenience, wherever they may be, whatever they may be doing.
 
 ## Business Goals
 
