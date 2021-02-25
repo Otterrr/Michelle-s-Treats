@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="michelles-treats/assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <title>Michelle's Treats | Directly to your door</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img class="logo" src="michelles-treats/assets/images/logo.png" alt="Michelle's Treats Logo" width="120" height="120"></a>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="michelles-treats/assets/images/logo.png" alt="Michelle's Treats Logo" width="60" height="60"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <ul class="d-flex align-items-end navbar-nav ml-auto">
+                    <ul class="d-flex align-items-end navbar-nav ml-auto nav-headings">
                         <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
                         <li><a class="nav-link" href="#">Gallery</a></li>
                         <li><a class="nav-link" href="#">Contact</a></li>
@@ -29,21 +29,24 @@
     </header>
     <hr>
 
-    <article class="container">
+    <article class="callout-container container-fluid">
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
-                    <h1>Homemade Treats directly to your door</h1>
-                    <p class="lead">Purchase now for 20% OFF your first purchase using code <strong>"GOODVIBES"</strong></p>
-                    <button class="btn btn-success btn-lg">Shop Now!</button>
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header1">Homemade Treats</h1>
+                    <h1 class="jumbotron-header2">Directly to your door</h1>
+                    <p class="lead jumbotron-text">Purchase now for 20% OFF your first purchase using code <strong><mark>"GOODVIBES"</mark></strong></p>
+                    <button class="btn btn-success btn-lg"><p class="shop-now">Shop Now!</p></button>
                 </section>
             </div>
         </div>
+    </article>
         <!-- /Callout -->
-        <hr>
+
 
         <!-- best sellers -->
+    <article>
         <section class ="sellers">
             <div class="row">
                 <div class="col-12">

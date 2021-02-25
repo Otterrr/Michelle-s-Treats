@@ -1,9 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-header {
-    margin: 0;
+.nav-headings {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
 }
 
-.logo {
-    background: url("../images/logo.png");
+.callout-container {
+    height: 720px;
+    width: 100%;
+    margin: auto;
+
+    background: url("../images/Banner.jpg"); no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.jumbotron-header1 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.jumbotron-header2 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.jumbotron-text {
+   color: white;    
+}
+
+.shop-now {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+
+.btn btn-success btn-lg {
+    padding: 0;
 }
