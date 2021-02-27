@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* HEADING */
+
 .nav-headings {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
 }
 
+/* CALLOUT */
+
 .callout-container {
-    height: 720px;
+    height: 100vh;
     width: 100%;
     margin: auto;
 
-    background: url("../images/Banner.jpg"); no-repeat center;
+    background: url("../images/Banner.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,10 +23,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+    position: relative;
+}
+/*
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+*/
 .jumbotron {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron-header1 {
@@ -51,6 +66,39 @@
     margin-bottom: 0;
 }
 
-.btn btn-success btn-lg {
-    padding: 0;
+.btn, .btn-success, .btn-lg {
+    padding-bottom: 0.25rem;
+    background-color: rgb(255, 20, 147);
+    border-color: rgb(255, 20, 147);
 }
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgb(200, 20, 100);
+    border-color: rgb(200, 20, 100);
+}
+
+
+/* BREAKPOINT */
+
+.breakpoint {
+    height: 60px;
+    width: 100%;
+}
+
+/* BEST SELLERS */
+
+.sellers, .product {
+    
+}
+
+.sellers h2, h3 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
