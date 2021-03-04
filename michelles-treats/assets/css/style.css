@@ -13,6 +13,12 @@ html,body {
 .nav-headings {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
+    font-size: 150%;
+    padding-top: 2px;
+}
+
+.nav-headings li {
+    margin-left: 15px;
 }
 
 .navbar-brand {
@@ -125,13 +131,13 @@ html,body {
 
  
 .sellers {
-    height: 600px;
+    height: 620px;
 }
 
 .sellers h2, h3 {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-weight: 300;
     background-color: #f8f9fa;
     margin: 0;
     padding-top: 5px;
@@ -155,13 +161,13 @@ html,body {
 
 @media screen and (max-width: 1199px) {
     .sellers {
-        width: 75%;
+        width: 85%;
         height: 1150px;
         margin: 0 auto;
         }   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .sellers {
         width: 85%;
         height: 2200px;
@@ -169,17 +175,37 @@ html,body {
         }   
 }
 
-/* IMG BREAKER */
-
-.breaker img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: sticky;
-    top: 0;
+/* GALLERY */
+.gallery {
+    margin-right: 5px;
+    margin-top: 105px;
 }
+
+/* ABOUT */
+.about {
+    margin-right: 5px;
+    margin-top: 105px;
+}
+
 /* FOOTER */
 
 .footer {
     padding: 25px;
+    background: rgb(34, 33, 34);   
+}
+
+.socials {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.socials li {
+    display:inline;
+}
+
+.socials i {
+    font-size: 150%;
+    margin: 2px 5px;
+    padding: 5px;
+    color: whitesmoke;
 }
