@@ -5,7 +5,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: #f8f9fa;
+    background-color: white
 }
 
 /* HEADING */
@@ -30,7 +30,7 @@ html,body {
 
 .callout {
     margin-right: 5px;
-    margin-top: 95px;
+    margin-top: 105px;
 }
 
 .callout-container {
@@ -125,6 +125,7 @@ html,body {
 .breakpoint {
     height: 30px;
     width: 100%;
+    background-color: whitesmoke;
 }
 
 /* BEST SELLERS */
@@ -132,13 +133,14 @@ html,body {
  
 .sellers {
     height: 620px;
+    background-color: whitesmoke;
 }
 
 .sellers h2, h3 {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
-    background-color: #f8f9fa;
+    background-color: whitesmoke;
     margin: 0;
     padding-top: 5px;
 }
@@ -167,7 +169,13 @@ html,body {
         }   
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
+    .callout-container {
+        height: 525px;
+        }
+}
+
+@media screen and (max-width: 767px) {
     .sellers {
         width: 85%;
         height: 2200px;
@@ -175,10 +183,57 @@ html,body {
         }   
 }
 
+@media screen and (max-width: 350px) {
+    .sellers img {
+        padding-top: 25px;
+        margin-left: -15px;
+        }
+
+    .callout {
+        margin-top: 138px;
+        padding-top: 10px;
+        }
+
+    .jumbotron {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+    .sellers img {
+        padding-top: 25px;
+        margin-left: -35px;
+        }
+}
+
 /* GALLERY */
 .gallery {
-    margin-right: 5px;
-    margin-top: 105px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-top: 115px;
+    margin-bottom: 5px;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery {
+        column-count: 1;
+    }
 }
 
 /* ABOUT */
