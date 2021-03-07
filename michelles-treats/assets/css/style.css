@@ -5,7 +5,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-color: white
+    background-color: whitesmoke;
 }
 
 /* HEADING */
@@ -210,18 +210,17 @@ html,body {
 /* GALLERY */
 .gallery {
     background-color: white;
-    margin-right: 15px;
-    margin-left: 5px;
-    margin-top: 115px;
-    margin-bottom: 5px;
+    padding: 110px 10px 5px 10px;
     line-height: 0;
     column-count: 4;
     column-gap: 10px;
+    
 }
 
 .gallery img {
     width: 100%;
-    margin: 5px;
+    display: block;
+    padding: 5px 0px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -237,10 +236,32 @@ html,body {
 }
 
 /* ABOUT */
-.about {
-    margin-right: 5px;
-    margin-top: 105px;
+.about-container {
+    height: 100vh;
+    margin: auto;
+
+    background: url("../images/about/hearts-tight.jpg") no-repeat fixed;
+    background-color:#3c200d;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 
 /* FOOTER */
 
