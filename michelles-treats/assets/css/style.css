@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html,body {
+/* code is a variert of snippets taken from codeinstitute.com 's learning pages and projects, customised in my own style and to my own liking */
+html, body {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     background-color: whitesmoke;
 }
@@ -12,9 +13,10 @@ html,body {
 
 .nav-headings {
     font-family: 'Spartan', sans-serif;
-    text-transform: uppercase;
     font-size: 150%;
     padding-top: 2px;
+    text-transform: uppercase;
+
 }
 
 .nav-headings li {
@@ -38,6 +40,7 @@ html,body {
     margin: auto;
 
     background: url("../images/Banner.jpg") no-repeat fixed;
+    /* image is my own */
     background-color:#3c200d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,21 +59,12 @@ html,body {
     padding: 0;
     margin: 0;
 }
-/*
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5)
-}
-*/
+
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron-header1 {
+.jumbotron h1 {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
     font-weight: lighter;
@@ -83,7 +77,7 @@ html,body {
     background-color: deeppink;
 }
 
-.jumbotron-header2 {
+.jumbotron h2 {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
     font-weight: lighter;
@@ -94,15 +88,14 @@ html,body {
    color: white;    
 }
 
-.shop-now {
+.btn-text {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
-    font-weight: lighter;
     color: whitesmoke;
     margin-bottom: 0;
 }
 
-.btn, .btn-success, .btn-lg {
+.btn, .btn-lg {
     margin-top: 1rem;
     padding-bottom: 0.25rem;
     background-color: rgb(255, 20, 147);
@@ -113,10 +106,15 @@ html,body {
     background-color: rgba(0,0,0,0.2);
 }
 
-.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-primary {
+.btn:hover, .btn:focus {
     color: #fff;
     background-color: rgb(200, 20, 100);
     border-color: rgb(200, 20, 100);
+}
+
+.button.active {
+    background: rgb(200, 20, 100);
+    border: rgb(200, 20, 100);
 }
 
 
@@ -222,7 +220,7 @@ html,body {
 .gallery img {
     width: 100%;
     display: block;
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
 /* GALLERY MEDIA Q */
@@ -262,6 +260,7 @@ html,body {
     margin: auto;
 
     background: url("../images/about/love-hearts.jpg") no-repeat center;
+    /* image is my own */
     background-color:#3c200d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,14 +283,17 @@ html,body {
 .about-jumbotron img {
     width: 200px;
     height: 200px;
-    margin: 10px 10px 0px;
+    margin: 10px 10px 0;
     display: block;
     float: left;
     border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-width: 1px;
 }
 
 .about-jumbotron p {
-    padding-top: 15px;
+    padding: 14px 0 0;
     text-transform: none;
     margin: 0;
     font-size: 120%;
@@ -306,11 +308,20 @@ html,body {
     text-align: left;
     display: block;
     width: 100%;
-    margin: 5px;
+    margin: 0;
+    padding: 0;
 }
 
-.btn-about p {
-    padding: 0px
+.about-title {
+    text-align: left;
+    display: block;
+    margin: 10px 0 0;
+}
+
+.btn-about {
+    padding: 9px 15px 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
 }
 
 textarea {
@@ -328,7 +339,7 @@ textarea {
 @media screen and (max-width: 550px) {
     .about {
         height: 1000px;
-        padding-right: 15px;
+        padding-right: 5px;
         }  
     
     .about-jumbotron {

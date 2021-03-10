@@ -14,6 +14,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <!-- header classes combined from bootstrap.com (took a long time to create the perfect one!) -->
             <a class="navbar-brand" href="index.html"><img class="logo" src="michelles-treats/assets/images/logo.png" alt="Michelle's Treats Logo" width="90" height="90"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,32 +30,34 @@
             </div>
         </nav>
     </header>
-    <article class="about about-container about-container-fluid">
+    <div class="about about-container about-container-fluid">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
-                <section class="jumbotron about-jumbotron text-center">
+                <div class="jumbotron about-jumbotron text-center">
                     <section class=" text-center">
-                    <h1 class="jumbotron-header1">About Michelle</h1>
-                    <img src="michelles-treats/assets/images/about/baker.jpg" alt="baker">
-                    <p>Michelle is a baker, maker, creator, mother of 3. She paints, knits, crafts, gardens and of course bakes a variety of incredible snacks, cakes, biscuits and TREATS!</p>
-                    <hr class="jumbo-hr about-hr">
-                    <form class="about-form" action="#" method="POST">
-                        <h3>Say Something Special</h3>
-                        <label class="about-input" for="name">Name:</label>
-                        <input class="about-input" id="name" name="name" type="text" placeholder="Your Name" required>
-                        <label class="about-input" for="email">Email:</label>
-                        <input class="about-input" id="email" name="email_address" type="email" placeholder="Your Email" required>
-                        <label class="about-input" for="request">Request:</label>
-                        <textarea class="about-input" id="request" name="request" type="text" rows="4" cols="50" placeholder="Your Request" required></textarea>
-                    </form>
-                    <button class="btn btn-about btn-success btn-lg hvr-sweep-to-bottom"><p class="shop-now"><strong>Submit</strong></p></button>
-                </section>
-                    
-                </section>
+                        <h1>About Michelle</h1>
+                        <img src="michelles-treats/assets/images/about/cake.jpg" alt="baker">
+                        <!-- image taken from pexels.com -->
+                        <p>Michelle is a baker, maker, creator, mother of 3. She paints, knits, crafts, gardens and of course bakes a variety of incredible snacks, cakes, biscuits and TREATS!</p>
+                        <hr class="jumbo-hr about-hr">
+                        <form class="about-form" action="https://formdump.codeinstitute.net/" method="POST">
+                            <h3>Say Something Special</h3>
+                            <label class="about-title" for="name">Name:</label>
+                            <input class="about-input" id="name" name="name" type="text" placeholder="Your Name" required>
+                            <label class="about-title" for="email">Email:</label>
+                            <input class="about-input" id="email" name="email_address" type="email" placeholder="Your Email" required>
+                            <label class="about-title" for="request">Request:</label>
+                            <textarea class="about-input" id="request" name="request" rows="4" cols="50" placeholder="Your Request" required></textarea>
+                            <button class="btn btn-about btn-lg hvr-sweep-to-bottom shadow-none" type="submit" value="Let's Bake!">Let's Bake!</button>
+                            <!-- form layout was taken from codeinstitute.com -->
+                            <!-- button classes were taken from Bootstrap -->
+                        </form>
+                    </section> 
+                </div>
             </div>
         </div>
-    </article>
+    </div>
     <!-- footer -->
     <footer>
         <div class="footer row text-center">
@@ -64,6 +67,7 @@
                     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a></li>
                     <li><a href="https://www.etsy.com" target="_blank"><i class="fab fa-etsy"></i> </a></li>
                     <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> </a></li>
+                    <!-- all icons taken from fontawesome.com -->
                 </ul>
             </div>
         </div>
