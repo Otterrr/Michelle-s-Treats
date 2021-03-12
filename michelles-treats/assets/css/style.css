@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* code is a variert of snippets taken from codeinstitute.com 's learning pages and projects, customised in my own style and to my own liking */
+/* code is a variety of snippets taken from codeinstitute.com 's learning pages and projects, customised in my own style and to my own liking */
 html, body {
     width: 100%;
     margin: 0;
@@ -85,7 +85,7 @@ html, body {
 }
 
 .jumbotron-text {
-   color: white;    
+   color: whitesmoke;    
 }
 
 .btn-text {
@@ -107,7 +107,7 @@ html, body {
 }
 
 .btn:hover, .btn:focus {
-    color: #fff;
+    color: whitesmoke;
     background-color: rgb(200, 20, 100);
     border-color: rgb(200, 20, 100);
 }
@@ -214,7 +214,7 @@ html, body {
     line-height: 0;
     column-count: 4;
     column-gap: 10px;
-    
+    /* could'nt work out why my images were not even, so found a solution from https://css-tricks.com/seamless-responsive-photo-grid/ using column-count */    
 }
 
 .gallery img {
@@ -238,7 +238,7 @@ html, body {
 }
 
 /* ABOUT */
-.about, .about h3 {
+.about, .about h2 {
     font-family: 'Spartan', sans-serif;
     color: whitesmoke;
     text-transform: uppercase;
@@ -247,8 +247,9 @@ html, body {
     padding: 5px;
 }
 
-.about h3 {
+.about-subheader {
     margin-top: 10px;
+    font-size: 175%;
 }
 
 .about h1 {

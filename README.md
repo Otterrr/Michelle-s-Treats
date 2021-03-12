@@ -71,7 +71,67 @@ All 3 pages will have a consistent Header and Footer section, using the same fon
 
 # Testing
 
+## Testing the stories from UX section
 
+As a **Consumer**, visiting this website, interested in purchasing or finding out information on Michelle's Treats, I want:
+
+1. An intuitive website that allows me to navigate easily to the different pages.
+
+* I made a simple and intuitive navbar with a logo that always navigates users to the HOME page as well as 3 large headers that lead to their respective pages. For tablet and mobile users there is a large button that expands to show all 3 headers again. I kept the font large as to make the wording clear and fixed the header above the content so that expanding the navbar did not interupt the layout of the page.
+
+2. To be able to contact the seller to receive more information on the variety of products and personalised boxes.
+
+* On the CONTACT page there is a large and distinctive form that all users / buyers can fill out to contact Michelle's Treats to ask for specific treats to be created.
+
+3. To be able to visit the sellers various social media accounts through a consistent footer layout.
+
+* Attached to each page is a consistent footer that links to hypothetical links to Michelle's Treats other social media pages.
+
+4. Consistent layout of header and footer design to familiarise with on each page.
+
+I used a clean and contrasting header and footer layout that is consistent across all 3 pages as well as in tablet and mobile form.
+
+5. Consistent main content layout that has some consisent design or sizes that ensures myself that I am still on the correct website at all times.
+
+The main content layout was harder to keep consistent as I used a gallery page as one of the 3 pages. I kept the photos used consistent however with high quality images used that are all similar that link the pages together. I also used the same jumbotron design on both the HOME and CONTACT pages that link the two together.
+
+6. Engaging, high quality images that entice me into purchasing a product or wanting to find out more.
+
+All images are my own and were taken at around 6000px X 4000px, maintaining a very high quality. There were then shrunk to around 600px X 400px to reduce page loading times.
+
+As the **Business/Website Owner**, using this website as the hub of all social media and the main location of purchases, I want: 
+
+1.  Users to be able to easily navigate my website, finding it welcoming, colourful and reflective of the products I am selling.
+
+A greyscale header, footer and background colour scheme was used consistently across all the pages with bright images and a deeppink accent colour for the buttons and horizontal rules.
+
+2. To be able to naigate users to the contact page where they can get in touch to enquire about my products and eventually purchase them.
+
+The header uses large dark font on the whitesmoke background to easily show users the 3 pages of the website. The CONTACT page, simply labelled, draws any users that wish to get in touch with Michelle's Treats to the last page where they can fill out a form to contact the seller.
+
+3. The images used, both in the background and in the gallery to accurately reflect my products, to increase interest and sales.
+
+All images are high quality, bright and show a large variety of the flavours and ingredients that are used in the brownies.
+
+4. My website to be multi-functional across varies devices, mobile, tablet and PC so users can browse my website at their convenience, wherever they may be, whatever they may be doing.
+
+The website has been build with mobile users primarily in mind, before expanding the website to tablet and desktop users. The header uses a button that expands to reveal the header titles on mobile but disappears on tablet and desktop when the header becomes large enough to accomodate all three headings. The gallery starts of with all images in one scrollable column. It then expands to a two column gallery for tablet users and a 4 column gallery for desktop users. 
+
+### ON THE GO TESTING / PROBLEMS
+
+1.
+
+
+### POST-CONTRUCTION TESTING
+
+* Once my website was 99% complete, I put the individual pages through the lighthouse testing.
+1. I found out that the performance was particularly low on my Gallery page due to the amount of images in there. The results from the test recommended me to reduce the original size of the images (as they were still in 6k). I reduced them down to 600x400px which boosted my performance up to the 90%.
+
+2. I was also recommended to add META description to my pages to give them a description on search engines. This bumped my SEO score to 100%.
+
+3. Upon testing the "Best Practises" of my website it was recommended the change all picture that were no longer at their oringal resolution to the resolution they were being used at on the website. I also added "rel="noopener"" to my social links to help improve the security of external links. This improved the "Best Practises" score to 100% on all pages.
+
+4. To improve my "Accesibility" I made sure all my pictures links and classes had the appropriate alternative texts for screen readers and that my code was laid out in a systematic manner. I was unable to get it over 95% however as it. would have compromised the design of the website in one regard. The second asked me to add "alt" tags to my "<a>" links which I did, but still said they were missing a "discernible name"
 
 # Deployments
 
@@ -79,14 +139,34 @@ All 3 pages will have a consistent Header and Footer section, using the same fon
 
 # Credits
 
-## Content
+* https://css-tricks.com/seamless-responsive-photo-grid/ I was having an issue when placing my 12 images into two columns. The issue was that 8 images were being placed in the first column and only 4 in the 2nd column. I found this solution online that forced an equal number of images into each column.
 
--
+* https://learn.codeinstitute.net/courses A lot of my website has been inspired from Code Institute course pages and practise modules as this is the only coding that I know. However none of it was copy and pasted. It was all customised to my own liking to fit the style of the website.
 
-## Media
+* https://getbootstrap.com/docs/5.0/customize/components/ I have used Boostraps components a few times in this project. I have used the columns to create a responsive layout. I have used the navbar elements to create a drop down menu for my header and I have used some of their btn button elements to create responsive buttons for my callouts.
 
--
+* https://fontawesome.com/icons/ Font awesome was used for my icons for my footer.
 
-## Acknowledgements
+# Content
 
--
+* Image of cupcake sourced from Pexels.com
+    - All other images are my own.
+
+* Fonts were sourced from Google Fonts. https://fonts.google.com/
+    - All text was written by myself.
+
+# Media
+
+* https://www.pexels.com/photo/photo-of-person-holding-cupcake-4110158/ by Polina Tankilevitch
+    - All other images are my own.
+
+# Acknowledgements
+
+* [Google Fonts](https://fonts.google.com/)
+* [Github Pages](https://pages.github.com/)
+* [Font Awesome](https://fontawesome.com)
+* [Code Institute](https://learn.codeinstitute.net/courses)
+* [Booststrap](https://getbootstrap.com/docs/5.0/customize/components/)
+* [Pexels](https://www.pexels.com/)
+* [W3Schools](https://www.w3schools.com/)
+* [Stack Overflow](https://stackoverflow.com/)
