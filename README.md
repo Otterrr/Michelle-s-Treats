@@ -119,7 +119,25 @@ The website has been build with mobile users primarily in mind, before expanding
 
 ### ON THE GO TESTING / PROBLEMS
 
-1.
+1. NAVBAR
+The first issue I came across was creating the perfect Navbar. For a short while I struggled to get my content to appear on the right side and for the button to disappear when the page was expanded. Therefore... I wanted my Navbar to have my logo in the top left and the headings in the top right, which would then turn into a button that opens into a dropdown menu, also aligned right. I first sourced a navbar element from Bootstrap that had a heading in the top left and the button in the top right as I thought those would be the hardest to create. Then I replaced the heading with an <img> and aligned the headings to the left with justify and align classes. I then also had to tell the button to only appear when the page size was below a certain size so it only appeared on mobile and tablet pages. I also added the class fixed to my header to make it always stay at the top of the page even when scrolled down.
+
+2. FIXED NAVBAR
+In making my navbar fixed to the top of the page it brought my content up to the page height to fill "the gap" the navbar had been covering. I therefore had to give my content/callout a large margin-top to bring it down in line with the point that the header ended. This was not a particularly hard fix, but it was an interesting interaction.
+
+3. MEDIA QUERY
+a) When I had completed the first page of the website, the HOME page, I proceeded to test it using "F12 Dev tools" to see how the website looked on mobile. Of course, none of the elements fit as I had not yet assinged media queries. I therefore assinged various media queries for tablet that moved my four images into two rows of two, and then for mobile into four rows of one. I also adjusted the width of my callout to fit within each mobile size at different pixel sizes.
+b) I also made sure that even if mobile and tablet users were to view the website with their phone on landscape mode that the callout did not get cut off by the header. I did this by adding a media query that adjusted the callout size from 100vh to around 600px.
+c) Another issue I had at small sizes (mobile) was that my content was not centered, even though it had the correct classes and was centered when in desktop and tablet mode. I found out that this was an issue with the page not being large enough to fit the content, so it was slowly shifting it to the right to compensate. I fixed this issue by adding a margin of 5px / 10px /15px to the right side of my content when appropriate to keep it centered.
+
+4. GALLERY 
+I wanted a 4column gallery with 12 images spread evenly. To do this I followed the "Love Running" gallery tutorial. I added my margins and column gaps and it was all great. However, when I went to reduce the gallery to a 2 column page for tablet users, the images were uneven, with 7 images in the first column and 5 in the second. This made ZERO sense to me and most of the internet as I could not find a solution. At one point I even considered making it a 3 column spread as this worked perfectly. After a long while of searching I went back into my 4 column mode and realised that one of my images was not the same height as the rest. This was causing the column to be 2-3px larger and not fitting all the images in. To fix this I took all my images into paint and rescaled them to have the EXACT height and width of each other and this fixed the issue!
+
+5. CONTACT
+Similar layout to the HOME page so no issues there. I did have an issue with laying out my image and text adjacent to each other. I found a solution to this by giving it two characteristics of display: block and float: left. This put my image and text next to each other instead of on top.
+
+6. FORM
+Whilst creating my contact form, my inputs were aligning next to each other and not on top. To fix this I used a similar fix to above where I aligned each item left and gave them the display: block characteristic.
 
 
 ### POST-CONTRUCTION TESTING
