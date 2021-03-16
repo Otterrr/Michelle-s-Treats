@@ -74,7 +74,7 @@ html, body {
 .jumbo-hr {
     height: 1px;
     width: 75px;
-    background-color: deeppink;
+    background-color: rgb(200, 20, 100);
 }
 
 .jumbotron h2 {
@@ -88,18 +88,19 @@ html, body {
    color: whitesmoke;    
 }
 
-.btn-text {
+.btn-text, .btn-text:hover, .btn-text:focus {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
     color: whitesmoke;
     margin-bottom: 0;
+    text-decoration: none;
 }
 
 .btn, .btn-lg {
     margin-top: 1rem;
     padding-bottom: 0.25rem;
-    background-color: rgb(255, 20, 147);
-    border-color: rgb(255, 20, 147);
+    background-color: rgb(200, 20, 100);
+    border-color: rgb(200, 20, 100);
 }
 
 .hvr-sweep-to-bottom:before {
@@ -108,13 +109,13 @@ html, body {
 
 .btn:hover, .btn:focus {
     color: whitesmoke;
-    background-color: rgb(200, 20, 100);
-    border-color: rgb(200, 20, 100);
+    background-color: rgb(180, 0, 80);
+    border-color: rgb(180, 0, 80);
 }
 
 .button.active {
-    background: rgb(200, 20, 100);
-    border: rgb(200, 20, 100);
+    background: rgb(180, 0, 80);
+    border: rgb(180, 0, 80);
 }
 
 

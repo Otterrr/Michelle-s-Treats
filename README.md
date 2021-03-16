@@ -78,44 +78,55 @@ As a **Consumer**, visiting this website, interested in purchasing or finding ou
 1. An intuitive website that allows me to navigate easily to the different pages.
 
 * I made a simple and intuitive navbar with a logo that always navigates users to the HOME page as well as 3 large headers that lead to their respective pages. For tablet and mobile users there is a large button that expands to show all 3 headers again. I kept the font large as to make the wording clear and fixed the header above the content so that expanding the navbar did not interupt the layout of the page.
+![alt text](michelles-treats/assets/images/readme-images/home.png)
 
 2. To be able to contact the seller to receive more information on the variety of products and personalised boxes.
 
 * On the CONTACT page there is a large and distinctive form that all users / buyers can fill out to contact Michelle's Treats to ask for specific treats to be created.
+![alt text](michelles-treats/assets/images/readme-images/contact.png)
 
 3. To be able to visit the sellers various social media accounts through a consistent footer layout.
 
 * Attached to each page is a consistent footer that links to hypothetical links to Michelle's Treats other social media pages.
+![alt text](michelles-treats/assets/images/readme-images/footer.png)
 
 4. Consistent layout of header and footer design to familiarise with on each page.
 
 I used a clean and contrasting header and footer layout that is consistent across all 3 pages as well as in tablet and mobile form.
+![alt text](michelles-treats/assets/images/readme-images/constant.png)
 
 5. Consistent main content layout that has some consisent design or sizes that ensures myself that I am still on the correct website at all times.
 
 The main content layout was harder to keep consistent as I used a gallery page as one of the 3 pages. I kept the photos used consistent however with high quality images used that are all similar that link the pages together. I also used the same jumbotron design on both the HOME and CONTACT pages that link the two together.
+![alt text](michelles-treats/assets/images/readme-images/constant-main.png)
 
 6. Engaging, high quality images that entice me into purchasing a product or wanting to find out more.
 
 All images are my own and were taken at around 6000px X 4000px, maintaining a very high quality. There were then shrunk to around 600px X 400px to reduce page loading times.
+![alt text](michelles-treats/assets/images/readme-images/gallery.png)
 
 As the **Business/Website Owner**, using this website as the hub of all social media and the main location of purchases, I want: 
 
 1.  Users to be able to easily navigate my website, finding it welcoming, colourful and reflective of the products I am selling.
 
+
 A greyscale header, footer and background colour scheme was used consistently across all the pages with bright images and a deeppink accent colour for the buttons and horizontal rules.
+![alt text](michelles-treats/assets/images/readme-images/constant.png)
 
 2. To be able to naigate users to the contact page where they can get in touch to enquire about my products and eventually purchase them.
 
 The header uses large dark font on the whitesmoke background to easily show users the 3 pages of the website. The CONTACT page, simply labelled, draws any users that wish to get in touch with Michelle's Treats to the last page where they can fill out a form to contact the seller.
+![alt text](michelles-treats/assets/images/readme-images/constant.png)
 
 3. The images used, both in the background and in the gallery to accurately reflect my products, to increase interest and sales.
 
 All images are high quality, bright and show a large variety of the flavours and ingredients that are used in the brownies.
+![alt text](michelles-treats/assets/images/readme-images/gallery.png)
 
 4. My website to be multi-functional across varies devices, mobile, tablet and PC so users can browse my website at their convenience, wherever they may be, whatever they may be doing.
 
 The website has been build with mobile users primarily in mind, before expanding the website to tablet and desktop users. The header uses a button that expands to reveal the header titles on mobile but disappears on tablet and desktop when the header becomes large enough to accomodate all three headings. The gallery starts of with all images in one scrollable column. It then expands to a two column gallery for tablet users and a 4 column gallery for desktop users. 
+![alt text](michelles-treats/assets/images/readme-images/mobile.png)
 
 ### ON THE GO TESTING / PROBLEMS
 
@@ -131,7 +142,7 @@ b) I also made sure that even if mobile and tablet users were to view the websit
 c) Another issue I had at small sizes (mobile) was that my content was not centered, even though it had the correct classes and was centered when in desktop and tablet mode. I found out that this was an issue with the page not being large enough to fit the content, so it was slowly shifting it to the right to compensate. I fixed this issue by adding a margin of 5px / 10px /15px to the right side of my content when appropriate to keep it centered.
 
 4. GALLERY 
-I wanted a 4column gallery with 12 images spread evenly. To do this I followed the "Love Running" gallery tutorial. I added my margins and column gaps and it was all great. However, when I went to reduce the gallery to a 2 column page for tablet users, the images were uneven, with 7 images in the first column and 5 in the second. This made ZERO sense to me and most of the internet as I could not find a solution. At one point I even considered making it a 3 column spread as this worked perfectly. After a long while of searching I went back into my 4 column mode and realised that one of my images was not the same height as the rest. This was causing the column to be 2-3px larger and not fitting all the images in. To fix this I took all my images into paint and rescaled them to have the EXACT height and width of each other and this fixed the issue!
+I wanted a 4 column gallery with 12 images spread evenly. To do this I followed the "Love Running" gallery tutorial. I added my margins and column gaps and it was all great. However, when I went to reduce the gallery to a 2 column page for tablet users, the images were uneven, with 7 images in the first column and 5 in the second. This made ZERO sense to me and most of the internet as I could not find a solution. At one point I even considered making it a 3 column spread as this worked perfectly. After a long while of searching I went back into my 4 column mode and realised that one of my images was not the same height as the rest. This was causing the column to be 2-3px larger and not fitting all the images in. To fix this I took all my images into paint and rescaled them to have the EXACT height and width of each other and this fixed the issue!
 
 5. CONTACT
 Similar layout to the HOME page so no issues there. I did have an issue with laying out my image and text adjacent to each other. I found a solution to this by giving it two characteristics of display: block and float: left. This put my image and text next to each other instead of on top.
@@ -149,12 +160,52 @@ Whilst creating my contact form, my inputs were aligning next to each other and 
 
 3. Upon testing the "Best Practises" of my website it was recommended the change all picture that were no longer at their oringal resolution to the resolution they were being used at on the website. I also added "rel="noopener"" to my social links to help improve the security of external links. This improved the "Best Practises" score to 100% on all pages.
 
-4. To improve my "Accesibility" I made sure all my pictures links and classes had the appropriate alternative texts for screen readers and that my code was laid out in a systematic manner. I was unable to get it over 95% however as it. would have compromised the design of the website in one regard. The second asked me to add "alt" tags to my "<a>" links which I did, but still said they were missing a "discernible name"
+4. To improve my "Accesibility" I made sure all my pictures links and classes had the appropriate alternative texts for screen readers and that my code was laid out in a systematic manner. I also changed the button colour to a darker shade to allow it be more visable to vision-impared users. The second asked me to add "alt" tags to my "a" links. Upon speaking with my Tutor, it was discovered that they need an "aria" tag instead!
 
 # Deployments
 
+## GitHub Pages
 
+This project was deployed to GitHub Pages through the following steps:
 
+1. Log into GitHub and find the GitHub Repository.
+2. At the top of the Repository, below the Repository title, find the "Settings" button in the menu.
+3. Scroll down to find the "GitHub Pages" section.
+4. In the "Source" heading, click "None" and select the "Master Branch".
+5. This will refresh your page. Now scroll down again to find the link in the "GitHub Pages" section.
+
+## Forking the GitHub Repository
+
+Forking is the action of creating a copy of the original file on your own GitHub account to view and/or edit without making changes to the original repository. To do this:
+
+1. Log in to GitHub and find the GitHub Repository you wish to use.
+2. At the top of the Repository, below the Repository title, find the "Fork" button in the menu.
+3. A new copy of your own should now be located in your own GitHub account.
+
+## Making a Local Clone
+
+1. Log in to GitHub and find the GitHub Repository you wish to use.
+2. At the top of the Repository, below the Repository title, click "Clone or download"
+3. To clone using HTTPS, copy the link under "Clone with HTTPS".
+4. Now open Git Bash.
+5. Choose the location you wish to save the cloned directory.
+6. Type `git clone`, then paste the URL copied in Step 3.
+
+```
+    $ git clone https://github.com/Otterrr/Michelle-s-Treats
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/Otterrr/Michelle-s-Treats
+> Cloning into `        `...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+ 
 # Credits
 
 * https://css-tricks.com/seamless-responsive-photo-grid/ I was having an issue when placing my 12 images into two columns. The issue was that 8 images were being placed in the first column and only 4 in the 2nd column. I found this solution online that forced an equal number of images into each column.
