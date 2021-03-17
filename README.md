@@ -192,18 +192,20 @@ Forking is the action of creating a copy of the original file on your own GitHub
 6. Type `git clone`, then paste the URL copied in Step 3.
 
 ```
-    $ git clone https://github.com/Otterrr/Michelle-s-Treats
+    $ git clone https://github.com/Otterrr/Michelle-s-Treats.git
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/Otterrr/Michelle-s-Treats
-> Cloning into `        `...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+$ git clone https://github.com/Otterrr/Michelle-s-Treats.git
+> Cloning into `Michelle-s-Treats`...
+> remote: Enumerating objects: 96, done.
+> remote: Counting objects: 100% (96/96), done.
+> remote: Compressing objects: 100% (70/70), done.
+> remote: Total 206 (delta 26), reused 82 (delta 15), pack-reused 110
+> Receiving objects: 100% (206/206), 237.46 MiB | 12.31 MiB/s, done.
+> Resolving deltas: 100% (57/57), done.
 ```
  
 # Credits
